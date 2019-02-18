@@ -274,7 +274,9 @@ img {
 
 /* The text------------------------------------------------------- */
 
-
+.text{
+    padding-top: 15px;
+}
 
 h1 {
     text-align: center;
@@ -324,9 +326,10 @@ p {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    margin: 0;
+    margin: 10;
     border: solid;
     padding: 1px;
+    
 }
 
 /* The socioal media icons-------------------------------------------- */
