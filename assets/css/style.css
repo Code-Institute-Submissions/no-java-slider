@@ -212,7 +212,7 @@ body {
 
 .parallax {
 
-    background: url('/assets/pics/1150x750band.jpg') no-repeat center;
+    background: url('/assets/pics/1150x750maggie.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 0px;
@@ -276,6 +276,8 @@ img {
 
 .text{
     padding-top: 15px;
+    vertical-align: middle;
+    
 }
 
 h1 {
@@ -286,6 +288,7 @@ h1 {
     color: #404040;
     width: 100%;
     background-color: inherit;
+    vertical-align: middle;
 }
     
 h2 {
@@ -312,6 +315,7 @@ p {
     text-align: center;
     font-size: 1.2vw;
     padding: 15px;
+    vertical-align: middle;
 }
 
 /* The logo-------------------------------------------- */
@@ -366,30 +370,27 @@ background-color: #6666ff;
 
 .container-tour{
     width: 100%;
-    height: 130px;
+    height: 110px;
     background-color:inherit;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 15px;
-    padding-top: 10px;
+    padding: 0;
     margin-left: 40px;
     text-align: center;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
     color: #f1f1f1;
+    
 }
     
 .tourinner{
     padding: 0;
-    border-color: #1f0e77;
     border-radius: 10px;
-    border-style: double;
-    height: 100%;
-    width: 24%;
+    height: 85%;
+    width: 300px;
+    margin: 2px;
     background-color: #9f96cc;
     text-align: center;
-    margin: 5px;
+    vertical-align: middle;
 
 }    
     
