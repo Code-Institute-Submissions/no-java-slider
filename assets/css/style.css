@@ -242,12 +242,13 @@ body {
 }
 
 .parallax-four {
-    background: url('/assets/pics/1150x750maggie.jpg') no-repeat center;
+    background: url('/assets/pics/1150x750band4.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 0 20;
+    background-position: 0 0;
     height: 550px;
     width: 100%;
+    margin-top: 50px;
 
 }
 
@@ -355,6 +356,10 @@ p {
 
 .fa-instagram{
 background-color: #6666ff;
+}
+
+.fa-youtube{
+background-color: red;
 }
 
 /* The space-------------------------------------------- */
