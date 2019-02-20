@@ -229,7 +229,7 @@ body {
     background: url('/assets/pics/1150x750ad.jpg') no-repeat center;
     background-size: cover;
     background-attachment:  fixed;
-    background-position: 0 20;
+    background-position: 0 20px;
     height: 550px;
     width: 100%;
 
@@ -323,9 +323,7 @@ p {
     min-height: 65px;
     min-width: 65px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    margin: 10;
+    margin: 10px;
     border: solid;
     padding: 1px;
     
@@ -422,7 +420,6 @@ background-color: red;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  background: url("https://premier.ticketek.com.au/shows/show.aspx?sh=REDHOTCH19" target="_blank);
 }
 
 .button:after {
@@ -446,26 +443,42 @@ background-color: red;
 
 /* The Gallery-------------------------------------------- */
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+.pics {
+  margin: 2px;
+  border: 2px dashed #ccc;
   float: left;
-  width: 400px;
+  width: 305px;
+  height: auto;
+  padding: 2px;
 }
 
-div.gallery:hover {
+.pics:hover {
   border: 1px solid #777;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
+.pics img {
+  width: 300px;
+  height: 180px;
+ 
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
+
+.folder{
+    padding-top: 80px;
+    padding-bottom: 0;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
 
 
 
