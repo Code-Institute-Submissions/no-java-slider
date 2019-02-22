@@ -275,7 +275,7 @@ body {
 
 .parallax {
 
-    background: url('/assets/pics/1150x750maggie.jpg') no-repeat center;
+    background: url('assets/pics/1150x750maggie.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 0px;
@@ -286,7 +286,7 @@ body {
 
 
 .parallax-two {
-    background: url('/assets/pics/1150x750sl.jpg') no-repeat center;
+    background: url('assets/pics/1150x750sl.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 20px;
@@ -305,7 +305,7 @@ body {
 }
 
 .parallax-four {
-    background: url('/assets/pics/1150x750band4.jpg') no-repeat center;
+    background: url('assets/pics/1150x750band4.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 0;
@@ -385,7 +385,7 @@ p {
 /* The logo-------------------------------------------- */
 
 .logo {
-    background: url("/assets/pics/logosm.jpg");
+    background: url("assets/pics/logosm.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
