@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
- <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,74 +15,34 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     
-    <title>Gallery</title>
+    <title>Red-Hot-Chili-Peppers</title>
 </head>
 
  <body>
        <header>
-         <div class="navbar-fixed-top  row">
             
-            
-            <div class="menu-item">
-               
-                <li><a href="https://aticodein.github.io/no-java-slider/index.html">
-                    <div class="col-md-2 col-sm-4 col-xs-6 item logo"></div>
-                </a></li>
-                
-               <div class="appear">
-                <a href="https://aticodein.github.io/no-java-slider/index.html">
-                    <div class="col-md-2 col-sm-4 col-xs-6 item">Home</div>
-                </a>
-                
-                
-                    <a href="https://aticodein.github.io/no-java-slider/index.html#band">
-                    <div class="col-md-2 col-sm-4 col-xs-6 item">Band</div>
-                </a>
-                
-                
-                    <a href="https://aticodein.github.io/no-java-slider/index.html#au">
-                    <div class="col-md-2 col-sm-4 col-xs-6 item">Audio</div>
-                </a>
-                
-                
-                    <a href="https://aticodein.github.io/no-java-slider/index.html#videos">
-                    <div class="col-md-2 col-sm-4 col-xs-6 item">Video</div>
-                </a>
-                
-                
-                    <a href="https://aticodein.github.io/no-java-slider/index.html#concerts">
-                    <div class="col-md-2 col-sm-4 col-xs-6 item">Concerts</div>
-                </a>
-                
-                
-                    <a href="https://aticodein.github.io/no-java-slider/tour.html">
-                    <div class="col-md-2 col-sm-4 col-xs-6 item">Tour</div>
-                </a>
-                
-                </div>
-                
-            </div>
+       <nav class="topnav navbar-static-top" id="myTopnav">
+          
+              
+          
+  <a href="#home">Home</a>
+  <a href="#band">Band</a>
+  <a href="#au">Music</a>
+  <a href="#videos">Videos</a>
+  <a href="#concerts">Concerts</a>
+  <a href="#tickets">Tickets</a>
+  <a href="#gallery">Gallery</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  
+</nav>
 
-
-        </div>
-    
-             <nav class="navbar2">
-            <div class="container-fluid">
+  
         
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="https://aticodein.github.io/no-java-slider/index.html">Home</a></a></li>
-                    <li><a href="https://aticodein.github.io/no-java-slider/index.html#band">Band</a></li>
-                    <li><a href="https://aticodein.github.io/no-java-slider/index.html#au">Music</a></li>
-                    <li><a href="https://aticodein.github.io/no-java-slider/index.html#videos">Videos</a></li>
-                    <li><a href="https://aticodein.github.io/no-java-slider/index.html#concerts">Concerts</a></li>
-                    <li><a href="https://aticodein.github.io/no-java-slider/tour.html">Tour</a></li>
-                    <li><a href="https://aticodein.github.io/no-java-slider/gallery.html">Gallery</a></li>
-                </ul>
-            </div>
-        </nav>
-    
-         </header>
+        
+    </header>
          
          
          
@@ -202,6 +162,18 @@
             </div>
             
             <div class="space"></div>
+            
+            
+             <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
           
        
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
