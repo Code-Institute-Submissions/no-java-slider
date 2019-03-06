@@ -31,7 +31,7 @@
               
           
   <a href="#home">Home</a>
-  <a href="#band">Band</a>
+  <a href="#contact">Contact</a>
   <a href="#au">Music</a>
   <a href="#videos">Videos</a>
   <a href="#concerts">Concerts</a>
@@ -64,38 +64,59 @@
           <div id="band" class="space"></div>
         <div class="container-fluid">
 
-            <h2>Order Tickets <button class="button1"><a href="https://aticodein.github.io/no-java-slider/tour.html">Here</a></button>,   Sign Up for Tickets informations:</h2>
-            
-          
+           
+            <div class="container">
+  
+ 
+  <button type="button" class="button2 btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign Up for ticket informations</button>
 
-                     <div class="box">
-    <a class="button2" href="#popup1">Sing Up</a>
-</div>
-
-                  <div id="popup1" class="overlay">
-    <div class="popup">
-        <h2>Put your best e-mail address here</h2>
-        <a class="close" href="#concerts">&times;</a>
-        <div class="content">
-            <form class="form-inline">
-                <div class="form-group">
-                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label class="sr-only" for="exampleInputPassword3">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-                </div>
-                <div class="checkbox">
-                    <label>
-      <input type="checkbox">Remember me</label>
-                </div>
-                <button type="submit" class="btn btn-default">Sign Me Up</button>
-            </form>
-            Thank You, click on X so you can close this window.
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Tickets Info</h4>
         </div>
+        <div class="modal-body">
+          <div class="container2">
+  <h2>Your best e-mail address</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
     </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
 </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button2 btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
 
                 
             <h1>Red Hot Chili Peppers <i class="fa fa-asterisk fa-spin"></i></h1>
@@ -399,36 +420,7 @@ Original guitarist Slovak's style was strongly based on blues and funk. Slovak w
         Relief Fund which since 2005 has raised $150 million to educate, employ, house and support those in need in the Bay Area. Work on a new album was announced in September 2018, with plans to release it sometime in 2019. The recording was delayed
         due to the Woolsey Fire; the band performed a benefit show for fire victims on January 13, 2019. The band performed "Dark Necessities" with rapper Post Malone at the 61st Grammy Awards on February 10, 2019.</p>
 </div>
-                <h2>Sign Up for Tickets information</h2>
-
-                     <div class="box">
-    <a class="button2" href="#popup1">Sing Up</a>
-</div>
-
-                  <div id="popup1" class="overlay">
-    <div class="popup">
-        <h2>Put your best e-mail address here</h2>
-        <a class="close" href="#concerts">&times;</a>
-        <div class="content">
-            <form class="form-inline">
-                <div class="form-group">
-                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label class="sr-only" for="exampleInputPassword3">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-                </div>
-                <div class="checkbox">
-                    <label>
-      <input type="checkbox">Remember me</label>
-                </div>
-                <button type="submit" class="btn btn-default">Sign Me Up</button>
-            </form>
-            Thank You, click on X so you can close this window.
-        </div>
-    </div>
-</div>
+               
 
                     <div class="space"></div>
            
@@ -479,7 +471,17 @@ function myFunction() {
 }
 </script>
             
- 
+    <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
             
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
