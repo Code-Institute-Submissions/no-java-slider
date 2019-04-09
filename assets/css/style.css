@@ -9,10 +9,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
-
-
 /* Top nav---------------------------------------------------- */
 
 .topnav {
@@ -35,7 +32,6 @@ body {
   border-radius: 1px 18px;
   background-color: #99b3e6;
   transition: all 0.3s ease-out;
-  
 }
 
 .topnav a:hover {
@@ -57,9 +53,7 @@ body {
     display: block;
     padding: 10px;
     position: absolute;
-   
     z-index: 1000;
-    
   }
 }
 
@@ -79,7 +73,6 @@ body {
     padding-right: 15;
     margin: 2px;
     border-radius: 1px 18px;
-    
   }
 }
 
@@ -91,7 +84,6 @@ body {
   display: block;
   text-align: left;
 }
-
 
 .fa-bars{
   display: block;
@@ -105,8 +97,6 @@ body {
     overflow: hidden;
     max-height: 650px;
     background-color: #d6d6f5;
-
-
 }
 
 #slider figure {
@@ -116,14 +106,11 @@ body {
     left: 0;
     animation: 15s slider infinite;
     max-height: 550px;
-
-
 }
 
 #slider figure img {
     width: 20%;
     float: left;
-
 }
 
 @keyframes slider {
@@ -157,33 +144,22 @@ body {
     100% {
         left: -400%;
     }
-
 }
-
-
-
 /* The video-------------------------------------------- */
-
-
 
 .iframe-container{
   max-width: 800px;
   max-height: 400px;
   padding: 5px;
   margin: 10px;
-  
 }
-
-
 
 .wrapper{
     margin: 0 auto;
     width: 100%;
-    
 }
 
 .videowrapper{
-   
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
@@ -201,15 +177,10 @@ body {
 }
 
 .iframe{
-    
-    border: 2px;
+  border: 2px;
 }
 
-
-
-
 /* The audio-------------------------------------------- */
-
 
 .music {
     display: inline-block;
@@ -228,11 +199,6 @@ body {
     margin: 5px;
 }
 
-
-
-
-
-
 /* The prallax-------------------------------------------- */
 
 .container-fluid {
@@ -240,21 +206,16 @@ body {
     padding-left: 20px;
     max-height: 550px;
     height: auto;
-
 }
 
 .parallax {
-
     background: url('../pics/1150x750maggie.jpg') no-repeat center;
     min-height: 550px;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 0px;
     width: auto;
-    
-
 }
-
 
 .parallax-two {
     background: url('../pics/1150x750sl.jpg') no-repeat center;
@@ -272,7 +233,6 @@ body {
     background-position: 0 20px;
     height: 550px;
     width: 100%;
-
 }
 
 .parallax-four {
@@ -283,7 +243,6 @@ body {
     height: 550px;
     width: 100%;
     margin-top: 50px;
-
 }
 
 /* The images------------------------------------------- */
@@ -291,16 +250,13 @@ body {
 img {
   width: 100%;
   height: auto;
- 
 }
-
 
 /* The text------------------------------------------------------- */
 
 .text{
     padding-top: 15px;
     vertical-align: middle;
-    
 }
 
 h1 {
@@ -312,7 +268,6 @@ h1 {
     width: 100%;
     background-color: inherit;
     vertical-align: middle;
-    
 }
     
 h2 {
@@ -334,7 +289,6 @@ h4{
     font-style: normal;
     text-align: center;
     font-size: 1.8vw;
-
 }
 
 p {
@@ -357,7 +311,6 @@ p {
     margin-bottom: 20px;
 }
 
-
 /* The logo-------------------------------------------- */
 
 .blob {
@@ -376,20 +329,9 @@ p {
     padding: 3px;
    display: block;
    z-index: 500;
-  
-
 }
 
-
-
-
-
-
-
-
 /* The socioal media icons and fa icons-------------------------------------------- */
-
-
 
 .social-icons {
   padding: 0;
@@ -402,8 +344,6 @@ p {
   min-height: 100px;
   z-index: 2500;
 }  
-  
-    
 
 .fa-facebook {
   background-color: #3B5998;
@@ -418,12 +358,8 @@ p {
     text-align: center;
     overflow: auto;
     padding-top: 17px;
-  
 }
  
-
-
-
 .fa-twitter {
   background-color: #66d9ff;
   font-size: 18px;
@@ -437,12 +373,7 @@ p {
     text-align: center;
     overflow: auto;
     padding-top: 17px;
-  
- 
-
 }
-
-
 
 .fa-instagram{
 background-color: #6666ff;
@@ -457,8 +388,6 @@ background-color: #6666ff;
     text-align: center;
     overflow: auto;
     padding-top: 17px;
-  
-
 }
 
 .fa-youtube{
@@ -474,9 +403,6 @@ background-color: red;
     text-align: center;
     overflow: auto;
     padding-top: 17px;
-  
-
-
 }
 
 .fa-picture-o{
@@ -492,7 +418,6 @@ background-color: red;
     text-align: center;
     overflow: auto;
     padding-top: 17px;
-    
 }
 
 .fa-wikipedia-w{
@@ -508,22 +433,16 @@ background-color: red;
     text-align: center;
     overflow: auto;
     padding-top: 17px;
-   
-  
-    
-
 }
 
 .fa{
   transition: all 0.5s ease-in;
   transition: all 0.5s ease-out;
 }
-.social-icons :hover{
-  
-    background: #000099;
-   
-}
 
+.social-icons :hover{
+    background: #000099;
+}
 
 /* The tour-------------------------------------------- */
 
@@ -538,7 +457,6 @@ background-color: red;
     font-style: normal;
     font-weight: 500;
     color: #f1f1f1;
-    
 }
     
 .tourinner{
@@ -550,11 +468,7 @@ background-color: red;
     background-color: #9f96cc;
     text-align: center;
     vertical-align: middle;
-
 }    
-    
-    
-    
     
 /* The tour button-------------------------------------------- */
 
@@ -574,9 +488,6 @@ background-color: red;
   cursor: pointer;
   margin: 5px;
 }
-
-
-
 
 .button {
   cursor: pointer;
@@ -604,13 +515,6 @@ background-color: red;
   right: 10px;
 }
 
-
-
-
-
-
-
-
 /* The Gallery-------------------------------------------- */
 
 .pics {
@@ -629,7 +533,6 @@ background-color: red;
 .pics img {
   width: 300px;
   height: 180px;
- 
 }
 
 .desc {
@@ -644,7 +547,6 @@ background-color: red;
 }
 
 /* The Table-------------------------------------------- */
-
 
 .table {
   font-family: arial, sans-serif;
@@ -677,8 +579,6 @@ background-color: red;
 .modalio{
   text-align: center;
 }
-
-
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -791,8 +691,6 @@ hr {
   }
 }
 
-
-
 /* The tour button-------------------------------------------- */
 
 .button {
@@ -810,9 +708,6 @@ hr {
   cursor: pointer;
   margin: 5px;
 }
-
-
-
 
 .button {
   cursor: pointer;
