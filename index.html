@@ -15,18 +15,63 @@
 
 <body>
     
-<header>
-    <nav class="topnav navbar-static-top" id="myTopnav">
-        <a href="https://aticodein.github.io/no-java-slider/index.html">Home</a>
-        <a href="https://aticodein.github.io/no-java-slider/#au">Music</a>
-        <a href="https://aticodein.github.io/no-java-slider/#videos">Videos</a>
-        <a href="https://aticodein.github.io/no-java-slider/#concerts">Concerts</a>
-        <a href="https://aticodein.github.io/no-java-slider/tour.html">Tickets</a>
-        <a href="https://aticodein.github.io/no-java-slider/gallery.html">Gallery</a>
-        <a href="#contact">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i></a>
-    </nav>
+<!----<header>
+        <div class="container-fluid">
+        <div class="row navbar-static-top topnav col-lg-2">
+            <nav nav-logo float-left>
+                <a href="https://aticodein.github.io/no-java-slider/index.html">
+                    <div class="blob"></div>
+                </a>
+            </nav>
+        </div> 
+        <div id="nav" class="list-inline clearfix row navbar-static-top topnav col-lg-10">
+            <nav class="row" float-right id="myTopnav">
+                <li><a href="https://aticodein.github.io/no-java-slider/index.html">Home</a></li>
+                <li><a href="https://aticodein.github.io/no-java-slider/#au">Music</a></li>
+                <li><a href="https://aticodein.github.io/no-java-slider/#videos">Videos</a></li>
+                <li><a href="https://aticodein.github.io/no-java-slider/#concerts">Concerts</a></li>
+                <li><a href="https://aticodein.github.io/no-java-slider/tour.html">Tickets</a></li>
+                <li><a href="https://aticodein.github.io/no-java-slider/gallery.html">Gallery</a></li>
+                <li><a href="#contact">Contact</a>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a></li>
+            </nav></ul>
+        </div>
+        </div>
+        
+        
+        
+        
+</header>--->
+
+<header class="container-fluid header">
+
+    <div class="row navbar-static-top">
+        <a href="index.html">
+            <div class="col-md-2 logo">
+                <div class="blob"></div>
+            </div>
+        </a>
+        <div class="col-md-10">
+            <div class="row bg-color-name-title">
+                <div class="heading">
+                    <h1 class="name">Red Hot Chili Peppers <i class="fa fa-asterisk fa-spin"></i></h1>
+                </div>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="https://aticodein.github.io/no-java-slider/index.html">Home</a>
+                <a href="https://aticodein.github.io/no-java-slider/#au">Music</a>
+                <a href="https://aticodein.github.io/no-java-slider/#videos">Videos</a>
+                <a href="https://aticodein.github.io/no-java-slider/#concerts">Concerts</a>
+                <a href="https://aticodein.github.io/no-java-slider/tour.html">Tickets</a>
+                <a href="https://aticodein.github.io/no-java-slider/gallery.html">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+    </div>
+
 </header>
 
 <div class="middle">
@@ -36,12 +81,12 @@
  <div class="container-fluid">
   <div class="parallax">
         </div>
-  <div id="band" class="space"></div>
+  <div id="band"></div>
   <div class="container-fluid">
 
     <div class="container">
         <div class="wrapper modalio">
-                    <button type="button" class="button2 btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign Up for ticket informations</button>
+                    <button type="button" class="button2 btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign Up for ticket information</button>
                 </div>
                 <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
@@ -221,11 +266,7 @@
             <div class="col-sm-6 col-md-4">
                 <div class="wrapper">
                     <div class="videowrapper">
-
                         <iframe src="https://www.youtube.com/embed/8DyziWtkfBw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
                     </div>
                 </div>
             </div>
@@ -346,7 +387,7 @@
             <div id="concerts" class="text">
                 <br>
                 <h1>Concerts in 2019 <i class="fa fa-asterisk fa-spin"></i></h1>
-                <h2>Australia, New Zeland, Egypt, Japan, Brazil >> <a href="https://aticodein.github.io/no-java-slider/tour.html">Go to Tour for Tickets</a> >></h2>
+                <h2>Australia, New Zeland, Egypt, Japan, Brazil >> <a href="https://aticodein.github.io/no-java-slider/tour.html">Get your Tickets</a> >></h2>
                 <p>The Getaway, the band's eleventh studio album, was released on June 17, 2016. Produced by Danger Mouse. Featuring the singles "Dark Necessities," "Go Robot," "Sick Love" & "Goodbye Angels." The Getaway World Tour concluded in October 2017.
                     The tour consisted of 151 shows lasting a year and almost five months. In December, the band headlined the Band Together 2 Benefit Concert at the Bill Graham Civic Auditorium in San Francisco. Money raised from the concert goes to
                     the Tipping Point Emergency Relief Fund which since 2005 has raised $150 million to educate, employ, house and support those in need in the Bay Area. Work on a new album was announced in September 2018, with plans to release it sometime
@@ -354,10 +395,10 @@
                     10, 2019.</p>
             </div>
 
-            <div class="space"></div>
+            <div id="contact"></div>
 
             <footer>
-               <div class="col-sm-12 social-icons container">
+               <div class="row social-icons container footer">
 
                     <a href="https://www.facebook.com/ChiliPeppers/?ref=br_rs" target="_blank">
 
