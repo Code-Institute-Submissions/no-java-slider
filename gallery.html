@@ -11,16 +11,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
-    
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     
     <title>Red-Hot-Chili-Peppers</title>
 </head>
 
- <body>
-     <div class="blob"></div>
-     <header class="container-fluid header">
+<body>
+<div class="blob"></div>
+<header class="container-fluid header">
       <div class="row navbar-static-top">
         <a href="https://aticodein.github.io/no-java-slider/index.html">
             <div class="col-md-2 logo">
@@ -47,88 +48,148 @@
         </div>
     </div>
 </header>
-     <div class="folder">
-         <div class="row">
-             <div class="pics">
+
+<div class="container">
+  <div class="row">
+    <h1>Check out a few images from the band's life</h1>
+   
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Anthony Kiedis and Flea in Amsterdam, August 1989" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750ad.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Red Hot Chili Peppers in 2012 (left to right): Anthony Kiedis, Chad Smith, Josh Klinghoffer and Flea" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750band.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Red Hot Chili Peppers" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750band2.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Red Hot Chili Peppers, The Adventures of Rain Dance Maggie, Venice Beach, California, July 30. 2011" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750band3.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Red Hot Chili Peppers" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750band4.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Chad Smith" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750chs.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Flea and Josh" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750flea+josh.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="'The Getaway' album cover" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750maggie.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Hillel Slovak" href="#"><img class="thumbnail img-responsive" src="assets/pics/1150x750sl.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Red Hot Chili Peppers 2019" href="#"><img class="thumbnail img-responsive" src="assets/pics/band2.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="Red Hot Chili Peppers Allstate Arena February 7, 2012" href="#"><img class="thumbnail img-responsive" src="assets/pics/rhcp1.jpg"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-sx-12"><a title="49th Annual Grammy Awards in Los Angeles February 11, 2007." href="#"><img class="thumbnail img-responsive" src="assets/pics/rhcpl.jpg"></a></div>
+     
+   
+    <hr>
+    
+    <hr>
+  </div>
+</div>
+<div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+		<button class="close" type="button" data-dismiss="modal">×</button>
+		<h3 class="modal-title">Heading</h3>
+	</div>
+	<div class="modal-body">
+		
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-default" data-dismiss="modal">Close</button>
+	</div>
+   </div>
+  </div>
+</div>
+
+<script>
+ (function(global){
+  ('.thumbnail').click(function(global){
+      ('.modal-body').empty();
+  	var title = (this).parent('a').attr("title");
+  	('.modal-title').html(title);
+  	((this).parents('div').html()).appendTo('.modal-body');
+  	('#myModal').modal({show:true});
+});
+ });
+</script>
+
+
+
+ <!---<div class="container-fluid gallery">
+    <div class="row">
+             
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750ad.jpg">
                        <img src="assets/pics/1150x750ad.jpg" alt="rhcp" width="1150" height="750">
                        </a>
                  <div class="desc">Anthony Kiedis and Flea in Amsterdam, August 1989</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750band.jpg">
                         <img src="assets/pics/1150x750band.jpg" alt="rhcp" width="1150" height="750">
                        </a>
                  <div class="desc">Red Hot Chili Peppers in 2012 (left to right): Anthony Kiedis, Chad Smith, Josh Klinghoffer and Flea</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750band2.jpg">
                        <img src="assets/pics/1150x750band2.jpg" alt="band2" width="1150" height="750">
                      </a>
                  <div class="desc">Current: Red Hot Chili Peppers</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750band3.jpg">
               <img src="assets/pics/1150x750band3.jpg" alt="band3" width="1150" height="750">
             </a>
                  <div class="desc">Red Hot Chili Peppers, The Adventures of Rain Dance Maggie, Venice Beach, California, July 30. 2011</div>
              </div>
          </div>
-         <div class="row">
-             <div class="pics">
+    <div class="row">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750band4.jpg">
               <img src="assets/pics/1150x750band4.jpg" alt="band4" width="1150" height="750">
             </a>
                  <div class="desc">Red Hot Chili Peppers - The Getaway (Gatefold Image)</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750chs.jpg">
               <img src="assets/pics/1150x750chs.jpg" alt="chad" width="1150" height="750">
             </a>
                  <div class="desc">Chad Smith became the band's drummer through open auditions in November 1988 replacing D. H. Peligro</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750flea+josh.jpg">
               <img src="assets/pics/1150x750flea+josh.jpg" alt="flea and josh" width="1150" height="750">
             </a>
                  <div class="desc">Flea and ex-RHCP guitarist John Frusciante reunite in rare photo together Image courtesy of Kevin Winter/Getty Images (via ABC News Radio)</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750maggie.jpg">
               <img src="assets/pics/1150x750maggie.jpg" alt="maggie" width="1150" height="750">
             </a>
                  <div class="desc">Red Hot Chili Peppers - The Getaway (Full Front Cover)</div>
              </div>
          </div>
-         <div class="row">
-             <div class="pics">
+    <div class="row">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/1150x750sl.jpg">
               <img src="assets/pics/1150x750sl.jpg" alt="sl" width="1150" height="750">
             </a>
                  <div class="desc">Founding guitarist Hillel Slovak performing in Philadelphia in 1983</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/band2.jpg">
               <img src="assets/pics/band2.jpg" alt="rhcp" width="300" height="184">
             </a>
                  <div class="desc">Current: Red Hot Chili Peppers 2019</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/rhcp1.jpg">
               <img src="assets/pics/rhcp1.jpg" alt="logo" width="640" height="360">
             </a>
                  <div class="desc">Red Hot Chili Peppers Allstate Arena February 7, 2012</div>
              </div>
-             <div class="pics">
+             <div class="pics thumbnail col-lg-3 col-md-6 col-sm-12">
                  <a target="_blank" href="https://github.com/aticodein/no-java-slider/tree/master/assets/pics/rhcpl.jpg">
               <img src="assets/pics/rhcpl.jpg" alt="rhcp" width="620" height="325">
             </a>
                  <div class="desc">49th Annual Grammy Awards in Los Angeles February 11, 2007. </div>
              </div>
          </div>
-     </div>
-    <footer>
-    <div class="social-icons">
+</div>----> 
+<br>
+<br>
+
+<footer>
+    <div class="container"> 
+    <div class="row social-icons">
         <a href="https://www.facebook.com/ChiliPeppers/?ref=br_rs" target="_blank">
             <div class="col-md-2 col-sm-4 col-xs-6 item fa fa-facebook" aria-hidden="true"></div>
         </a>
@@ -148,10 +209,22 @@
             <div class="col-md-2 col-sm-4 col-xs-6 item fa fa-picture-o" aria-hidden="true"></div>
         </a>
     </div>
+    </div>
 </footer>
-     <div class="space"></div>
 
-     <script>
+<script>
+    $(document).ready(function() {
+$('.thumbnail').click(function(){
+      $('.modal-body').empty();
+  	var title = $(this).parent('a').attr("title");
+  	$('.modal-title').html(title);
+  	$($(this).parents('div').html()).appendTo('.modal-body');
+  	$('#myModal').modal({show:true});
+});
+});
+</script>
+
+<script>
          function myFunction() {
              var x = document.getElementById("myTopnav");
              if (x.className === "topnav") {
@@ -162,8 +235,9 @@
              }
          }
      </script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
- 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     
  </body>
 </html>
