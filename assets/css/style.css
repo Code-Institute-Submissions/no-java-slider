@@ -314,7 +314,7 @@ h1 {
     text-align: center;
     font-family: Helvetica;
     font-size: 3.8vw;
-    font-weight: bold;
+    font-weight: bolder;
     color: #404040;
     width: 100%;
     background-color: inherit;
@@ -325,8 +325,9 @@ h2 {
     padding-left: 50px;
     font-family: sans-serif;
     font-style: oblique;
+    font-weight: bold;
     font-stretch: semi-expanded;
-    font-size: 2.6vw;
+    font-size: 3.2vw;
 }
 
 h3{
