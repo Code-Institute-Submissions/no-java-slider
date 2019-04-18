@@ -301,7 +301,9 @@ img {
 }
 
 /* The text------------------------------------------------------- */
-
+.row{
+  text-align: center;
+}
 .text{
     padding-top: 15px;
     vertical-align: middle;
