@@ -9,6 +9,7 @@ body {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 1.4;
+  text-align: center;
 }
 
 /* The Header Navbar---------------------------------------------------- */
@@ -695,6 +696,7 @@ hr {
   margin-bottom: 20px;
   float: left;
   display: block;
+  text-align: center;
   text-decoration: none;
   background-color: #7c9ed6;
   min-height: 100px;
@@ -840,6 +842,6 @@ hr {
     background: #000099;
 }
 
-/*-------------------------------------------------------*/
+/*--------------------Gallery Modal------------------------------------------------------*/
 .modal-dialog {width:600px;}
 .thumbnail {margin-bottom:6px;}
