@@ -69,7 +69,7 @@ body {
   }
 }
 
-/*-------------Navbar--------------------*/
+/*-------------Header--------------------*/
 .header {
   z-index: 500;
   position: fixed;
@@ -77,53 +77,6 @@ body {
   background-color: #d6d6f5;
   width: 100%;
   letter-spacing: 2px;
-}
-#nav {
-  margin: 0;
-}
-
-#nav li {
-    padding: 3px;
-    border-color:  #d6d6f5;
-    border-width: 1px;
-}
-
-.menuitem {
-    height: 44px;
-    text-align: center;
-    padding: 2px;
-    border-radius: 15px;
-    border-width: 2px;
-    border: solid;
-    margin: -1px;
-}
-
-.menuitem a {
-    width: 99%;
-    text-decoration: none;
-    color: #ffffff;
-    height: auto;
-    border-radius: 15px;
-    
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 20px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    
 }
 
 /*--------------------------------------------Hover.css*/
@@ -133,7 +86,6 @@ body {
   color: #f1f1f1;
   display: inline-block;
   transition: all 0.3s ease-out;
-  
 }
 
 /* The slider------------------------------------------------------------- */
@@ -516,6 +468,11 @@ ul.a {
 
 .modalio{
   text-align: center;
+}
+#myModal {
+  background-color: inherit;
+  width: 100%;
+  height: auto;
 }
 
 /* Full-width input fields */

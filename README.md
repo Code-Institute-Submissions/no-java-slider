@@ -13,31 +13,39 @@ In my case this band is a world famous rock band, so at my project the visitors 
 
 UX
 
-This website is for those visitors who are looking for entertaintment around the world and heard about this fantastic and populare rock-punk band. Free sampels of audio and video songs to gat attention of the visitors and video record about the biggest achivement of the band to get in the Rock and Roll Hall of Fame!
-Visitors who found the band interesting and feel to travell to one of their concert can get acces to buy tickets for the concerts.
+This website is for those visitors who are looking for entertainment around the world and heard about this fantastic and popular rock-punk band. Free samples of audio and video songs to get attention of the visitors and video record about the biggest achievement of the band to get in the Rock and Roll Hall of Fame!
+Visitors who found the band interesting and feel to travel to one of their concert can get access to buy tickets for the concerts.
 If someone willing to fill up the section for tickets information, get real-time info about availability and costs of the tickets through e-mail. This way the website owner can keep records about potential buyers for future events.
-As the website visitors numbers grow can be built a members only page with registration and exclusive informations about not only concerts but every events where the band apperance is possible. This way can build a strong followers database.
-The bottom section (footer) provide the social media apperance for more optional following and registrations.
+As the website visitors numbers grow can be built a members only page with registration and exclusive information about not only concerts but every events where the band appearance is possible. This way can build a strong followers database.
+The bottom section (footer) provide the social media appearance for more optional following and registrations.
 
-My first idea was to use HTML and CSS language only (HTML5, CSS3) and try to avoid Javascript coding because this is the first project in the Code Institute programme and this point we haven't cover this subject. 
-The parallax methode and the image slider section can be made without Javascript (found solution on internet), but the user centric navbar, the modal section and some basic animation can not be made without it. 
+My first idea was to use HTML and CSS language only (HTML5, CSS3) and try to avoid JavaScript coding because this is the first project in the Code Institute program and this point we haven't cover this subject. 
+The parallax method and the image slider section can be made without JavaScript (found solution on internet), but the user centric navbar, the modal section and some basic animation cannot be made without it. 
 Used as less as I can.
 I have used Bootstrap framework for developing responsive, mobile-first website with Font-awesome.
 
-The website continously tested with Google Inspect and HTML, CSS (W3C)validator.
+The website continuously tested with Google Inspect and HTML, CSS (W3C) validator. Friends and family also have been asked open url different device.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-•	As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-Existing Features
-•	Feature 1 - allows users X to achieve Y, by having them fill out Z
-•	...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-Features Left to Implement
+Users whom looking for ticket to buy easily find places trough concert or tickets links. Until they don’t click on a particular date they will stay in this website. External links open in new tab.  
+Navbar
+ Navigation bar is responsive, allows user tu use all time in small devices as phones and tablets. It has the traditional logo at top left corner and fixed to top eny time can be used to navigate.
+
+Middle section
+ This is the main part of the body, has parallax layout with 
+1.	Table: current and past members, 
+2.	text: few more information about band and their accomplishment
+3.	audio: random teasers of the band music
+4.	videos: few YouTube video for audio-visual experience.
+
+Menu internal links and some clickable text lead users to gallery page for more photos and tickets selling page with the external links to purchase.
+
+Also there is a contact page with subject section for inquiries allows users to asking special arrangement (charity concerts and appearance etc.).
+
+In this section for the future can be implement a membership sign up modal for exclusive information and marketing options ticket price savings or selling printed t-shirts ect.
+
+Footer
+ Here are the social media icons for users who looking for options to follow the band. 
+
 •	Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
