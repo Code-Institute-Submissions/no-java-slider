@@ -11,13 +11,14 @@ body {
   line-height: 1.4;
   text-align: center;
 }
-
 /* The Header Navbar---------------------------------------------------- */
 
 .topnav {
   overflow: hidden;
 }
-
+.navbar-static-top {
+  max-height: 200px;
+}
 .topnav a {
   float: left;
   display: block;
@@ -216,6 +217,79 @@ body {
     width: auto;
 }
 
+/* For width 768px and smaller: */
+
+@media only screen and (max-width: 768px) {
+  .parallax { 
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .parallax { 
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .firstpic { 
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .firstpic { 
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .parallax-two { 
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .parallax-two { 
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .parallax-three { 
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .parallax-three { 
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .parallax-four { 
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .parallax-four { 
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .parallax-two {
     background: url('../pics/1150x750sl.jpg') no-repeat center;
     background-size: cover;
@@ -331,6 +405,25 @@ ul.a {
   padding: 3px;
   display: block;
   z-index: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .blob { 
+  background: url("../pics/logoxs.jpg") no-repeat center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45px;
+  width: 45px;
+  transition: all .5s ease-in-out;
+  margin: 5px;
+  border: solid 1px;
+  border-color: black;
+  border-radius: 46px;
+  padding: 3px;
+  display: block;
+  z-index: 500;
+  }
 }
 
 /* The tour-------------------------------------------- */
