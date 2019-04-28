@@ -547,6 +547,9 @@ ul.a {
 }
 
 /* The popup modal-------------------------------------------- */
+.modal-body {
+  background-color: #ffffff;
+}
 
 .modalio{
   text-align: center;
