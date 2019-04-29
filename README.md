@@ -41,14 +41,14 @@ As the website visitors numbers grow can be build a Members Only page with membe
 ### Technologies Used
 
 + HTML5
-  CSS3
-  Bootstrap 3.3.7
- 	Font Awesome 4.7.0
-  Bash
-  GIT
-  GITHUB
-  Cloud 9 IDE
-  JavaScript
++ CSS3
++ Bootstrap 3.3.7
++ Font Awesome 4.7.0
++ Bash
++ GIT
++ GITHUB
++ Cloud 9 IDE
++ JavaScript
 + YouTube (embedded iframe content)
 
 ### Testing
