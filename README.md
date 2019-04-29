@@ -10,7 +10,8 @@ Used as less as I can.
 I have used Bootstrap framework for developing responsive, mobile-first website with Font-awesome.
 
 In this case the band is a world famous rock band, so in my project the visitors can follow the band 2019 tour around the globe and buy concert tickets via links to the relevant sales website.
-UX
+
+## UX
 
 This website is for those visitors who are looking for entertainment around the world and know or either never heard about this fantastic and popular rock-punk band. Free samples of audio and video songs to catch attention of the visitors. 
 
@@ -22,7 +23,8 @@ Visitors who found the band interesting and feel to travel to one of their conce
 
 If someone willing to fill up the section for tickets information, get real-time info about availability and costs of the tickets through e-mail. This way the website owner can keep records about potential buyers for future events.
 I have used paper mockups for the layout unfortunately didn’t keep records.
-Features
+
+## Features
 
 ### Existing Features
 
@@ -42,7 +44,7 @@ and it will contain exclusive information about not only concerts but every even
 comment section, quizzes and souvenirs purchasing. 
 This way can build a strong followers database.
 
-### Technologies Used
+## Technologies Used
 
 + HTML5
 + CSS3
@@ -55,7 +57,7 @@ This way can build a strong followers database.
 + JavaScript
 + YouTube (embedded iframe content)
 
-### Testing
+## Testing
 
 The website continuously tested with 
 Google Inspect and 
@@ -73,9 +75,12 @@ Thank you very much guys!
 Deployment
 This website deployed at GitHub Pages.
 
-### Content
- section
- This is the main part of the body, has parallax layout with 
+## Content
+
+ Section
+ 
+ This is the main part of the body, has parallax layout with
+ 
 1.	Table: current and past members, 
 2.	Text: few more information about band and their accomplishment
 3.	Audio: random teasers of the band music
