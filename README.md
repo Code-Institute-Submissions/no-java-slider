@@ -1,7 +1,5 @@
 # Red Hot Chili Peppers
 
-## (No java-script slider, music-band website)
-
 The project's aim is to provide a website for a music-band, with some information about the band itself, images, audio and video samples of the band's music and opportunity for the visitors to sign up for more details.
 
 My first idea was to use HTML and CSS language only (HTML5, CSS3) and try to avoid JavaScript coding because this is the first project in the Code Institute program and this point we haven't cover this subject. 
