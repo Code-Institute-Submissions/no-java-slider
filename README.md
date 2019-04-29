@@ -58,11 +58,20 @@ This way can build a strong followers database.
 + YouTube (embedded iframe content)
 
 ### Testing
-The website continuously tested with Google Inspect and HTML, CSS (W3C) validator.
-Also tested by myself, friends, family members and asked for comments at Slack. 
-Two lead on Slack commented and gave very useful insights: Anna Greaves (lead) and
-Simen Daehlin (mentor). Also big help from my own mentor Ricardo Quichocho Gallegos. 
-Thank you very much guys!   
+
+The website continuously tested with 
+Google Inspect and 
+HTML, CSS (W3C) validator.
+
+Also tested by myself, friends, family members and asked for comments at Slack.
+
+Two lead on Slack commented and gave very useful insights: 
+Anna Greaves (lead) and
+Simen Daehlin (mentor). 
+Also big help from my own mentor Ricardo Quichocho Gallegos. 
+
+Thank you very much guys! 
+
 Deployment
 This website deployed at GitHub Pages.
 
