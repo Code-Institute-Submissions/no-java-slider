@@ -44,7 +44,6 @@
 </header>
 
 <div class="middle">
-    
 <section>
   <br>
   <br>
@@ -60,22 +59,24 @@
     </a>
   </div>
   <div class="container-fluid">
-    <div class="parallax"></div>
-    <div id="band"></div>
-<div class="container-fluid">
+     <div class="parallax"></div>
+     <div id="band"></div>
+</div>
+    
 <div class="container-fluid">
         <div class="wrapper modalio">
             <button type="button" class="button2 btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign Up for ticket information</button>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog modal-md>
-                <div class="modal-content">
-                    <div class="modal-header">
+</div>
+<!-- Modal-->
+<div class="modal container-fluid" id="myModal" role="dialog">
+            <!--<div class="modal-dialog modal-md>-->
+    <div class="modal-content modal-dialog modal-md">
+     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">Tickets Info</h4>
                     </div>
-                    <div class="modal-body">
+     <div class="modal-body">
                         <div class="container2">
                             <h3>Your best e-mail address</h3>
                             <form class="form-horizontal" action="https://aticodein.github.io/no-java-slider/action.html">
@@ -106,14 +107,11 @@
                             </form>
                         </div>
                     </div>
-                    <div class="modal-footer">
+     <div class="modal-footer">
                         <button type="button" class="button2 col-sm-offset-10 col-sm-2 btn-default" data-dismiss="modal">Close</button>
                     </div>
-                </div>
-            </div>
+    </div>
         </div>
-        </div>
-        
 <h2>Red Hot Chili Peppers <i class="fa fa-asterisk fa-spin"></i></h2>
 <div class="table-responsive">
              <table class="table">
@@ -424,7 +422,8 @@
                  </footer>
              </div>
          </div>
-</div>  
+ 
+</div>
 </section>
 </div>
 
@@ -440,7 +439,7 @@
      }
 </script>
 <script>
-    var modal = document.getElementById('id01');
+    var modal = document.getElementById("myModal");
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";

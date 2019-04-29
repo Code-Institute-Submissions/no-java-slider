@@ -926,8 +926,9 @@ input[type=email], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
 
-input[type=submit], select, {
+input[type=submit], select {
   background-color: #7c9ed6;
   color: white;
   padding: 12px 20px;
